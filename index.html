@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <title>OnlinePhone</title>
+</head>
+<body>
+    <style>
+                .smartphone {
+            position: relative;
+            width: 360px;
+            height: 640px;
+            margin: auto;
+            border: 16px black solid;
+            border-top-width: 60px;
+            border-bottom-width: 60px;
+            border-radius: 36px;
+          }
+          
+          .smartphone:before {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 5px;
+            position: absolute;
+            top: -30px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #333;
+            border-radius: 10px;
+          }
+          
+          .smartphone .content {
+            width: 360px;
+            height: 640px;
+            background: white;
+          }
+    </style>
+        </head>
+        <body>
+        <div class="smartphone">
+          <div class="content">
+            <iframe src="boot.html" style="width:100%;border:none;height:100%" />
+          </div>
+        </div>         
+</body>
+</html>
